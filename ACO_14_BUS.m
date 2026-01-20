@@ -1,4 +1,4 @@
-%% Continuous Ant Colony Optimization (ACOR) for Rosenbrock Function
+%% Continuous Ant Colony Optimization (ACOR)
 clc; clear; close all;
 
 % Number of Decision Variables (x and y)
@@ -214,3 +214,4 @@ function [Obj_fun] = LossFunction(x)
 
          Obj_fun=losses+penalty_bus_violation+penalty_gen_violation+penalty_brch_violation;
 end
+
